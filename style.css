@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #ebf8f4;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.graph__content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.graph__wrapper {
+  border: 1px solid #ffffff;
+}
+
+.graph__value {
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.graph__plan {
+  padding: 0 30px 20px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+input[type="number"] {
+	background-color: #eee;
+	vertical-align: top;
+	outline: none;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 10px;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+input[type="number"]:focus {
+	outline: 2px solid blue;
+}
+
+input[type="time"] {
+	background-color: #eee;
+	vertical-align: top;
+	outline: none;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+input[type="time"]:focus {
+	outline: 2px solid blue;
+}
+
+button {
+  background-color: #eee;
+  outline: none;
+  border: 1px solid #ddd;
+  height: 40px;
+  padding: 5px 10px;
+  display: inline-block;
+	box-sizing: border-box;
+  white-space: nowrap;
+  font-size: 14px;
+	border-radius: 3px;
+}

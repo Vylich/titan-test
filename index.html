@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src='https://cdn.plot.ly/plotly-2.27.0.min.js'></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="graph">
+    <div class="graph__content" id='myDiv'></div>
+    <div class="graph__wrapper">
+      <form class="graph__value" id="form">
+        <input id="input-value" type="number">
+        <input id="input-date" type="time">
+        <button type="submit" id="button">добавить значение</button>
+      </form>
+      <form class="graph__plan" id="form-plan">
+        <input id="input-plan" step="10" type="number">
+        <button type="submit" id="button-plan">добавить план</button>
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
